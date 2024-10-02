@@ -1,0 +1,13 @@
+* {
+    font-family: Monospace, ;
+    background-color: Gainsboro;
+    text-align: center;
+    margin: 4px;
+    padding: 3px;
+}
+.likings {
+    text-transform: uppercase;
+}
+title {
+    text-align: center;
+}
