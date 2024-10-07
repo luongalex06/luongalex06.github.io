@@ -4,10 +4,16 @@
         <title>Alex_Luong.EXE</title>
         <link href='/styles.css' rel='stylesheet'>
     </head>
+    
     <body>
         <h1>Alex_Luong.EXE</h1>
         <p>Hello! This is my website that showcases my self interest, and future! I hope that some of my interest are similar to anyone elses! If you're interested, here is my <a href="/aboutme.html">About Me</a></p>
-        <h2>Links</h2>
+      
+          <input type="button" value="bonk" onclick="play()">
+          <audio id="audio" src="bonk_AgRFvsD.mp3"></audio>
+          <script src="index.js"></script>
+        
+          <h2>Links</h2>
         <nav>
             <div>
                 <img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg" type="_blank" width="15" height="15">
@@ -30,6 +36,7 @@
             <h3 class="likings">Music</h3>
             <img src='data:image/jpeg;base64,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' width="200" >
             <p>I love music! I can't go anywhere unless I'm listening to something, in the car, on a walk, doing activites, music has to be involved<br> as well. Currently, I have been listening to Bryson Tiller, Tory Lanez, Drake, Baby Keem, and other artists that involve rnb and rap. <br>I also listen to other genres of music at certain times.</p>
+            <button onclick="getFortune()">Get Your Fortune</button>
     </div>
     </body>
 </html>
